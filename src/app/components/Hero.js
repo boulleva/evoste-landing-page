@@ -14,7 +14,7 @@ export default function Hero() {
       <div className="mt-8">
         {/* Ganti `src` dengan path gambar produk utama Anda di folder /public */}
         <Image
-          src="/hero-products.png" // Contoh path gambar
+          src="/hero-products.png"
           alt="EVOSTE Perfume Collection"
           width={800}
           height={600}
@@ -23,8 +23,7 @@ export default function Hero() {
       </div>
       <div className="mt-10 flex flex-col sm:flex-row justify-center items-center gap-4">
         <a
-          href="https://wa.me/6287777745791" // Ganti dengan nomor WhatsApp Anda
-          target="_blank"
+          href="https://wa.me/6287777745791"
           rel="noopener noreferrer"
           className="bg-green-500 text-white font-bold py-3 px-8 rounded-full hover:bg-green-600 transition duration-300 text-lg shadow-lg"
         >
