@@ -18,7 +18,7 @@ export default function Testimonials() {
             <p className="text-gray-600">
               This fragrance awakened a part of me I never knew existed. It
               stays with me through every moment, and every subtle note feels
-              like a secret only I can carry
+              like a secret only I can carry.
             </p>
           </div>
           {/* Review 2 */}
@@ -31,9 +31,10 @@ export default function Testimonials() {
               </div>
             </div>
             <p className="text-gray-600">
-              "I got Citrine Flame — its fresh, citrusy, and just right for my
-              daily wear. I do wish it lingered on my skin a bit longer, but its
-              perfect for close moments that last all day. 100 ⭐"
+              &quot;I got Citrine Flame — it&apos;s fresh, citrusy, and just
+              right for my daily wear. I do wish it lingered on my skin a bit
+              longer, but it&apos;s perfect for close moments that last all day.
+              100 ⭐&quot;
             </p>
           </div>
         </div>
