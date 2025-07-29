@@ -31,9 +31,9 @@ export default function Testimonials() {
               </div>
             </div>
             <p className="text-gray-600">
-              "I got Citrine Flame — it’s fresh, citrusy, and just right for my
-              daily wear. I do wish it lingered on my skin a bit longer, but
-              it’s perfect for close moments that last all day. 100 ⭐"
+              "I got Citrine Flame — its fresh, citrusy, and just right for my
+              daily wear. I do wish it lingered on my skin a bit longer, but its
+              perfect for close moments that last all day. 100 ⭐"
             </p>
           </div>
         </div>
