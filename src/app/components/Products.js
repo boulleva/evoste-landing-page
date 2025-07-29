@@ -5,31 +5,31 @@ const products = [
     name: "Ivory Bloom",
     description:
       "Unveiling a fresh, sweet, and exotic character, the scent blends lychee, rhubarb, saffron, and bergamot with Turkish rose, jasmine, and soft musk. It captures the memory of a peaceful spring morning in a blooming garden.",
-    image: "/ivory-bloom.png",
+    image: "/ivory-bloom.png", // Ganti dengan path gambar produk
   },
   {
     name: "Citrine Flame",
     description:
       "Radiating a fresh, fruity, and woody character, the scent blends bergamot, apple, plum, and cedarwood with hints of geranium. It captures the memory of a tranquil afternoon in an apple orchard.",
-    image: "/citrine-flame.png",
+    image: "/citrine-flame.png", // Ganti dengan path gambar produk
   },
   {
     name: "Midnight Cherry",
     description:
       "A captivating blend of cherry liqueur, bitter almond, and fresh bergamot - a sweet yet bold aroma that instantly draws attention.",
-    image: "/midnight-cherry.png",
+    image: "/midnight-cherry.png", // Ganti dengan path gambar produk
   },
   {
     name: "Oud Légendaire",
     description:
       "Bright, tropical, and mysterious, the scent combines passion fruit, pineapple, mango, and bergamot with warm woods, leather, oud, and soft amber.",
-    image: "/oud-legendaire.png",
+    image: "/oud-legendaire.png", // Ganti dengan path gambar produk
   },
   {
     name: "Or Du Soir",
     description:
       "A touch of coffee and amaretto brings warmth, like the first sip of a slow evening. Creamy ice cream notes melt into bourbon vanilla, brown sugar, and a spark of black pepper.",
-    image: "/or-du-soir.png",
+    image: "/or-du-soir.png", // Ganti dengan path gambar produk
   },
 ];
 
@@ -44,6 +44,7 @@ export default function Products() {
           {products.map((product) => (
             <div key={product.name} className="text-center">
               <div className="relative w-full h-64 mb-4">
+                {/* Ganti `src` dengan path gambar produk Anda */}
                 <Image
                   src={product.image}
                   alt={product.name}

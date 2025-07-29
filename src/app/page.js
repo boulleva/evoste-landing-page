@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import WhyChooseUs from "./components/WhyChooseUs";
+import Quiz from "./components/Quiz";
 import Products from "./components/Products";
 import Testimonials from "./components/Testimonials";
 import Reseller from "./components/Reseller";
@@ -27,6 +28,7 @@ export default function Home() {
         <Hero />
         <About />
         <WhyChooseUs />
+        <Quiz />
         <Products />
         <Testimonials />
         <Reseller />
